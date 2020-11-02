@@ -1,0 +1,5 @@
+import re
+text = ["appropriate", "cape"]
+for i in text:
+    if re.search(r"([(pp)][(r)|(aeiou)])", i):
+        print(i)
